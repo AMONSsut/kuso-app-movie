@@ -130,7 +130,6 @@ hgroup > p {
 ---------------------------------------- */
 .main_content {
   margin: 10vh 0 auto;
-  /* height: 50vh; */
 }
 
 /* question
@@ -140,13 +139,13 @@ hgroup > p {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-image: url(../img/signboard.png);
+  background-image: url(img/signboard.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   @media (width < 480px) {
     height: 120px;
-    background-image: url(../img/signboard-sp.png);
+    background-image: url(img/signboard-sp.png);
   }
 }
 .question > h2 {
