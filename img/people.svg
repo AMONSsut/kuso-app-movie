@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.045" height="54.663" viewBox="0 0 21.045 54.663">
+  <g id="グループ_12" data-name="グループ 12" transform="translate(-954.682 -960)">
+    <rect id="長方形_7" data-name="長方形 7" width="6.651" height="17.996" rx="1" transform="translate(959.375 976.215) rotate(7)" fill="#fff"/>
+    <rect id="長方形_8" data-name="長方形 8" width="6.651" height="17.996" rx="1" transform="translate(973.183 994.077) rotate(173)" fill="#fff"/>
+    <rect id="長方形_9" data-name="長方形 9" width="5.652" height="20.735" rx="1" transform="translate(958.969 991.832)" fill="#fff"/>
+    <rect id="長方形_10" data-name="長方形 10" width="5.652" height="20.735" rx="1" transform="translate(965.888 991.832)" fill="#fff"/>
+    <rect id="長方形_11" data-name="長方形 11" width="5.652" height="13.345" rx="1" transform="translate(962.439 983.471)" fill="#fff"/>
+    <path id="パス_3" data-name="パス 3" d="M865.686,960.321s-8.3,8.535-2.307,18.377" transform="translate(94 15.583)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_8" data-name="パス 8" d="M861.2,960.321s8.3,8.535,2.307,18.377" transform="translate(109.517 15.583)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_4" data-name="パス 4" d="M870.721,977.027s-3.076,6.536,1.461,8.843-5.613,2.922-5.613,2.922" transform="translate(90.734 5.364)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_9" data-name="パス 9" d="M869.2,977.027s3.076,6.536-1.461,8.843,5.613,2.922,5.613,2.922" transform="translate(99.756 5.364)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_5" data-name="パス 5" d="M870.106,1007.3v18.916s3.076,2.537,5.613,0" transform="translate(88.72 -13.339)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_7" data-name="パス 7" d="M875.719,1007.3v18.916s-3.076,2.537-5.613,0" transform="translate(95.861 -13.339)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_6" data-name="パス 6" d="M883.9,1003.757s1.536,3.193.307,20.482" transform="translate(80.448 -11.185)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <path id="パス_10" data-name="パス 10" d="M884.684,1003.757s-1.536,3.193-.307,20.482" transform="translate(81.376 -11.185)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    <g id="楕円形_4" data-name="楕円形 4" transform="translate(955.899 960)" fill="#fff" stroke="#707070" stroke-width="1">
+      <ellipse cx="9.442" cy="9.164" rx="9.442" ry="9.164" stroke="none"/>
+      <ellipse cx="9.442" cy="9.164" rx="8.942" ry="8.664" fill="none"/>
+    </g>
+  </g>
+</svg>
