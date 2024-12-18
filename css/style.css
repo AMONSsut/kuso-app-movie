@@ -5,13 +5,16 @@
     padding: 0;
 }
 html {
+    overflow-x: hidden;
     overflow-y: hidden;
     font-size: 10px;
 }
 body {
+    overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100dvh;
     background-color: var(--bg-color-black);
 }
 main {
@@ -105,11 +108,18 @@ hgroup {
 hgroup > h1 {
     font-size: var(--font-size-40);
     line-height: 1.2;
+    @media (width < 480px) {
+        font-size: var(--font-size-28);
+    }
 }
 hgroup > p {
     font-size: var(--font-size-16);
     position: relative;
     width: 200px;
+    @media (width < 480px) {
+        font-size: var(--font-size-14);
+        width: 140px;
+    }
     &::before, &::after{
         content: "";
         position: absolute;
@@ -117,6 +127,9 @@ hgroup > p {
         width: 40px;
         height: 1px;
         background-color: var(--color-gray);
+        @media (width < 480px) {
+            width: 20px;
+        }
     }
     &::before {
         left: 0;
@@ -149,10 +162,12 @@ hgroup > p {
   }
 }
 .question > h2 {
+  text-align: center;
   color: var(--color-white-question);
   font-size: var(--font-size-26);
   @media (width < 480px) {
-    font-size: var(--font-size-20);
+    padding: 0 40px;
+    font-size: var(--font-size-22);
   }
 }
 
@@ -163,7 +178,7 @@ hgroup > p {
   justify-content: center;
   gap: calc(40px + (200px - 64px));
   @media (width < 480px) {
-    gap: 30vw;
+    gap: 24vw;
   }
 }
 .line {
@@ -171,6 +186,9 @@ hgroup > p {
   height: 64px;
   border-left: 1px solid var(--color-gray);
   border-right: 1px solid var(--color-gray);
+  @media (width < 480px) {
+    height: 44px;
+  }
 }
 
 /*answer
@@ -194,14 +212,21 @@ button[class$="-answer"] {
   font-size: var(--font-size-28);
   padding-bottom: 2px;
   cursor: pointer;
+  @media (width < 480px) {
+    width: 140px;
+    height: 72px;
+    font-size: var(--font-size-22);
+  }
 }
-button:hover {
-  border: 6px solid var(--color-yellow);
-  box-shadow: var(--shadow-yellow);
-  transition: all 0.5s;
-}
-button[class$="-answer"]:hover {
-  border: 4px solid var(--color-yellow);
+@media (width > 480px) {
+    button:hover {
+        border: 6px solid var(--color-yellow);
+        box-shadow: var(--shadow-yellow);
+        transition: all 0.5s;
+    }
+    button[class$="-answer"]:hover {
+        border: 4px solid var(--color-yellow);
+    }
 }
 
 
@@ -210,15 +235,15 @@ button[class$="-answer"]:hover {
 .people {
     display: flex;
     justify-content: center;
-    height: 46px;
-    transform: translateY(40px);
+    height: 40px;
+    transform: translateY(60%);
     @media (width > 800px) {
         gap: 1rem;
         height: 52px;
     }
 }
 div[class$="-people"] {
-  position: relative;
+    position: relative;
 }
 .chair_image > img {
     width: 36px;
@@ -306,14 +331,17 @@ div[class$="-people"] {
 /*footer
 ---------------------------------------- */
 .footer {
+    display: flex;
+    align-items: center;
     transform: translateY(50%);
-    text-align: center;
     height: 80px;
 }
 .footer_text {
+    width: 100vw;
+    text-align: center;
     transform: rotate(180deg);
-    border-bottom: 1px solid var(--color-gray);
-    font-size: 12cqw;
+    border-bottom: 4px solid var(--color-gray);
+    font-size: 120px;
     line-height: 0.8;
     color: var(--color-gray);
     white-space: nowrap;
