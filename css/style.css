@@ -280,13 +280,16 @@ div[class$="-people"] {
 .end-message {
     font-size: var(--font-size-32);
     @media (width < 480px) {
-        font-size: var(--font-size-22);
+        font-size: var(--font-size-20);
     }
 }
 .end-message > a {
+    padding: 0 8px;
     font-size: var(--font-size-44);
     color: var(--color-yellow);
+    letter-spacing: -0.2rem;
     @media (width < 480px) {
+        padding: 0 4px;
         font-size: var(--font-size-28);
     }
     &:hover {
