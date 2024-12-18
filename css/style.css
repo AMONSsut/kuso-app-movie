@@ -116,6 +116,7 @@ hgroup > p {
     position: relative;
     width: 200px;
     font-size: var(--font-size-16);
+    text-shadow: 0 0 4px var(--bg-color-black);
     @media (width < 480px) {
         width: 150px;
         font-size: var(--font-size-14);
@@ -127,8 +128,9 @@ hgroup > p {
         width: 40px;
         height: 1px;
         background-color: var(--color-gray);
+        z-index: -1;
         @media (width < 480px) {
-            width: 8px;
+            width: 24px;
         }
     }
     &::before {
