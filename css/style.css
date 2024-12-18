@@ -128,7 +128,7 @@ hgroup > p {
         height: 1px;
         background-color: var(--color-gray);
         @media (width < 480px) {
-            width: 24px;
+            width: 8px;
         }
     }
     &::before {
