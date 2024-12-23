@@ -93,17 +93,25 @@ main {
 ---------------------------------------- */
 .header {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    gap: 10vw;
     height: 80px;
     margin: 20px;
+    @media (width < 480px) {
+        font-size: var(--font-size-28);
+    }
 }
 hgroup {
     display: flex;
     flex-flow: column;
     align-items: center;
+    min-width: 216px;
     color: var(--color-gray-white);
     text-align: center;
     text-shadow: var(--shadow-black);
+    @media (width < 480px) {
+        min-width: 152px;
+    }
 }
 hgroup > h1 {
     font-size: var(--font-size-40);
@@ -138,6 +146,23 @@ hgroup > p {
     }
     &::after {
         right: 0;
+    }
+}
+.information {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    max-width: 280px;
+    color: var(--color-gray-white);
+    > details {
+        text-align: right;
+        cursor: pointer;
+        font-size: var(--font-size-14);
+        word-break: keep-all;
+        overflow-wrap: anywhere;
+        > summary {
+            font-size: var(--font-size-18);
+        }
     }
 }
 
