@@ -73,6 +73,13 @@ main {
 
 /* font-family
 ---------------------------------------- */
+@font-face {
+    font-display: swap;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400 700;
+    src: url('../assets/font/NotoSansJP-VariableFont_wght.woff2') format("woff2");
+}
 :lang(ja) {
     font-family: "Noto Sans JP", serif;
     font-style: normal;
